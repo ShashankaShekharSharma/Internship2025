@@ -4,7 +4,7 @@ import cv2
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 
-img = cv2.imread('/content/download.jpeg')
+img = cv2.imread('still_life_created.bmp')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 img.shape
